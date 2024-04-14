@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import csv
 
-filename=input("File Name: ")
+filename=input("Include File Extension\nFile Name: ")
 path="*/DisplacementTracker/Video/"+filename
 framerate=24
 cap = cv2.VideoCapture(path)
